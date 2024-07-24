@@ -1,0 +1,26 @@
+.badge-box {
+  min-width: 115px;
+  width: auto;
+  height: 25px;
+  background-color: #FF6060;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px 10px;
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .badge-box {
+    font-size: 10px;
+    min-width: 84px;
+  }
+}

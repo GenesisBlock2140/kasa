@@ -1,0 +1,54 @@
+.renthost-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.profil-hostname {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: end;
+}
+
+.profilicon-box {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  margin-bottom: 21px;
+}
+
+.profil-picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+}
+
+@media (max-width: 768px) {
+  
+  .renthost-box {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+  }
+  
+  .profil-picture {
+    width: 32px;
+    height: 32px;
+  }
+
+  .profil-hostname {
+    font-size: 12px;
+  }
+
+  .profilicon-box {
+    margin-bottom: 0px;
+    order: 2;
+  }
+
+  .rating {
+    order: 1;
+  }
+  
+}

@@ -1,0 +1,45 @@
+.img-banniere {
+  position: relative;
+  text-align: center;
+}
+
+.img-background {
+  display: block;
+  width: 100%;
+  max-width: 1240px;
+  height: 223px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-top: 38px;
+  filter: brightness(50%);
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  z-index: 50;
+}
+
+@media (max-width: 600px) {
+  .img-text {
+    font-size: 24px;
+    text-align: left;
+    left: 40%;
+  }
+
+  .img-background {
+    height: 111px;
+    border-radius: 10px;
+  }
+
+  .img-banniere {
+    margin: 0 20px;
+  }
+}
